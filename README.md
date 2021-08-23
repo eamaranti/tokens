@@ -1,2 +1,2 @@
 # tokens
-poc-tokens toolabs dsm
+poc-token
