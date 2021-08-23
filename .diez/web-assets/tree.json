@@ -1,0 +1,222 @@
+{
+  "DesignLanguage": {
+    "palette": {
+      "contentBackground": {
+        "h": 0.5712468193384224,
+        "s": 0.5822222222222222,
+        "l": 0.5588235294117647,
+        "a": 1
+      },
+      "text": {
+        "h": 0.7476190476190476,
+        "s": 0.21212121212121215,
+        "l": 0.32352941176470584,
+        "a": 1
+      },
+      "caption": {
+        "h": 0.9905437352245863,
+        "s": 0.6103896103896103,
+        "l": 0.45294117647058824,
+        "a": 1
+      },
+      "headerBackground": {
+        "stops": [
+          {
+            "position": 0,
+            "color": {
+              "h": 0.06798245614035088,
+              "s": 0.9661016949152541,
+              "l": 0.4627450980392157,
+              "a": 1
+            }
+          },
+          {
+            "position": 1,
+            "color": {
+              "h": 0.1095679012345679,
+              "s": 0.9908256880733946,
+              "l": 0.5725490196078431,
+              "a": 1
+            }
+          }
+        ],
+        "start": {
+          "x": 0.5,
+          "y": 0
+        },
+        "end": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    "typography": {
+      "heading1": {
+        "font": {
+          "file": {
+            "src": "assets/SourceSansPro-Regular.ttf",
+            "type": "font"
+          },
+          "name": "SourceSansPro-Regular",
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "weight": 400,
+          "style": "normal"
+        },
+        "fontSize": 24,
+        "color": {
+          "h": 0.7476190476190476,
+          "s": 0.21212121212121215,
+          "l": 0.32352941176470584,
+          "a": 1
+        },
+        "iosTextStyle": "body",
+        "shouldScale": false,
+        "lineHeight": -1,
+        "letterSpacing": 0,
+        "alignment": "natural",
+        "decoration": []
+      },
+      "body": {
+        "font": {
+          "file": {
+            "src": "assets/SourceSansPro-Regular.ttf",
+            "type": "font"
+          },
+          "name": "SourceSansPro-Regular",
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "weight": 400,
+          "style": "normal"
+        },
+        "fontSize": 18,
+        "color": {
+          "h": 0.7476190476190476,
+          "s": 0.21212121212121215,
+          "l": 0.32352941176470584,
+          "a": 1
+        },
+        "iosTextStyle": "body",
+        "shouldScale": false,
+        "lineHeight": -1,
+        "letterSpacing": 0,
+        "alignment": "center",
+        "decoration": []
+      },
+      "caption": {
+        "font": {
+          "file": {
+            "src": "assets/SourceSansPro-Regular.ttf",
+            "type": "font"
+          },
+          "name": "SourceSansPro-Regular",
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "weight": 400,
+          "style": "normal"
+        },
+        "fontSize": 14,
+        "color": {
+          "h": 0.9905437352245863,
+          "s": 0.6103896103896103,
+          "l": 0.45294117647058824,
+          "a": 1
+        },
+        "iosTextStyle": "body",
+        "shouldScale": false,
+        "lineHeight": -1,
+        "letterSpacing": 0,
+        "alignment": "natural",
+        "decoration": []
+      }
+    },
+    "images": {
+      "logo": {
+        "file": {
+          "src": "assets/logo.png",
+          "type": "image"
+        },
+        "file2x": {
+          "src": "assets/logo@2x.png",
+          "type": "image"
+        },
+        "file3x": {
+          "src": "assets/logo@3x.png",
+          "type": "image"
+        },
+        "file4x": {
+          "src": "assets/logo@4x.png",
+          "type": "image"
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        }
+      },
+      "masthead": {
+        "file": {
+          "src": "assets/masthead.png",
+          "type": "image"
+        },
+        "file2x": {
+          "src": "assets/masthead@2x.png",
+          "type": "image"
+        },
+        "file3x": {
+          "src": "assets/masthead@3x.png",
+          "type": "image"
+        },
+        "file4x": {
+          "src": "assets/masthead@4x.png",
+          "type": "image"
+        },
+        "size": {
+          "width": 208,
+          "height": 88
+        }
+      }
+    },
+    "layoutValues": {
+      "spacingSmall": 5,
+      "spacingMedium": 25,
+      "spacingLarge": 40,
+      "contentMargin": {
+        "top": 40,
+        "bottom": 10,
+        "left": 10,
+        "right": 10
+      }
+    },
+    "strings": {
+      "title": "Diez",
+      "caption": "Keep your designs in sync with code",
+      "helper": "Modify the contents of “src/DesignLanguage.ts” (relative to the root of the Diez project) to see changes to the design language in real time."
+    },
+    "shadows": {
+      "logo": {
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "radius": 16,
+        "color": {
+          "h": 0,
+          "s": 0,
+          "l": 0.7411764705882353,
+          "a": 0.41000000000000003
+        }
+      }
+    },
+    "loadingAnimation": {
+      "file": {
+        "src": "assets/loadingAnimation.json",
+        "type": "raw"
+      },
+      "loop": false,
+      "autoplay": true
+    }
+  }
+}
